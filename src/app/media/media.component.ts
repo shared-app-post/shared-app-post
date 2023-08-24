@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class MediaComponent {
 
+  showOriginalSvg = true;
+  showRealFLag = true;
+
+  toggleSvg() {
+    this.showOriginalSvg = !this.showOriginalSvg;
+  }
+  
+  toggleFlag() {
+    this.showRealFLag = !this.showRealFLag
+  }
+
 }

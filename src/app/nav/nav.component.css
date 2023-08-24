@@ -5,18 +5,21 @@
     position: relative;
     left: 200%;
     transform: translateX(-50%);
-    font-size: 15px;
+    font-size: 17px;
     border-color: gray;
     border-width: 1px;
+    border-radius: 5px;
+
 }
 #LoginBtn2 {
     position: relative;
     left: 150%;
     transform: translateX(-50%);
-    font-size: 15px;
+    font-size: 17px;
     border-color: rgba(254, 44, 85, 1);
     border-width: 1px;
     background-color: rgba(254, 44, 85, 1);
+    border-radius: 5px;
 }
 #vertical{
     position: relative;
@@ -33,6 +36,5 @@ nav {
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000; /* Asegura que el nav esté por encima del contenido */
 }

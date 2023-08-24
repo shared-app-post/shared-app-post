@@ -1,8 +1,16 @@
 #media{
-border-radius: 30px;
 height: 70%;
 }
 #icons{
-    margin-top: 77%;
-    padding-left: 3%;
+    margin-top: 60%;
+    padding-left: 5%;
+}
+#followButton{
+    border-width: 1px;
+    border-color: #fe2c55;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20%;
 }

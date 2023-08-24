@@ -1,0 +1,52 @@
+#followButton{
+    border-width: 1px;
+    border-color: #fe2c55;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 150%;
+}
+#imgMain {
+    display: inline-block;
+    position: relative;
+  }
+
+  #imgMain:hover .hover-box {
+    display: block;
+  }
+
+  .hover-box {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    bottom: -220px;
+    left: 400%;
+    transform: translateX(-50%);
+    margin-left: -80px;
+  }
+
+  .hover-box p,
+  .hover-box strong,
+  .hover-box .text-sm {
+    margin: 0; 
+    padding: 5px; 
+  }
+
+  .rounded-full {
+    border-radius: 50%;
+  }
+  #followButton2{
+    border-width: 1px;
+    border-color:#fe2c55; 
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
