@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { MediaComponent } from './media/media.component';
 import { PruebasComponent } from './pruebas/pruebas.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PruebasComponent } from './pruebas/pruebas.component';
     NavComponent,
     SideBarComponent,
     MediaComponent,
-    PruebasComponent
+    PruebasComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
