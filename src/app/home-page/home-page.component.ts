@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home-page',
@@ -13,4 +13,33 @@ export class HomePageComponent {
       this.videoPlayer.nativeElement.playbackRate = speed;
     }
   }
+  showOriginalSvg = true;
+  showRealFLag = true;
+  toggleSvg() {
+    this.showOriginalSvg = !this.showOriginalSvg;
+  }
+  
+  toggleFlag() {
+    this.showRealFLag = !this.showRealFLag
+  }
+
+
+  showOriginalSvgLike = true;
+  showRealFLagLike = true;
+  toggleSvglike() {
+    this.showOriginalSvg = !this.showOriginalSvg;
+  }
+
+
+  showCard = false; // Inicialmente, la tarjeta está oculta
+
+  toggleCard() {
+    this.showCard = !this.showCard;
+  }
+  dropdownVisible: boolean = false;
+
+  toggleDropdown() {
+    this.dropdownVisible = !this.dropdownVisible;
+  }
+  
 }

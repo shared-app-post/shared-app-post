@@ -5,16 +5,7 @@
     padding-left: 17px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 20%;
-}
-#followButton{
-    border-width: 1px;
-    border-color: #fe2c55;
-    padding-right: 17px;
-    padding-left: 17px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 0;
+    margin-left: 150%;
 }
 #imgMain {
     display: inline-block;
@@ -67,22 +58,3 @@
         margin-top: 50%;
         padding-left: 5%;
     }
-    #comentsHr{
-    background-color: black; /* Cambia el color de la línea según tus necesidades */
-      width: 87%;
-    }
-    #inputSentComent{
-      margin-top: 2%;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      margin-left: 5%;
-      width: 90%;
-      position: fixed;
-      bottom: 0;
-    }
-    .card {
-      max-height: 500px;
-      overflow-y: auto; 
-    }
-    

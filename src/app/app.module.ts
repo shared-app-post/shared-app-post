@@ -9,6 +9,9 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { MediaComponent } from './media/media.component';
 import { PruebasComponent } from './pruebas/pruebas.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { PostComponent } from './post/post.component';
+import { ComentsComponent } from './coments/coments.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { UserInfoComponent } from './user-info/user-info.component';
     SideBarComponent,
     MediaComponent,
     PruebasComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    PostComponent,
+    ComentsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
